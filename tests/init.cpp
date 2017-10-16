@@ -44,7 +44,7 @@ SCENARIO("stack push", "[push]") {
 	REQUIRE(st.count() == 3);
 }
 
-SCENARIO("stack pop", "[push]") {
+SCENARIO("stack pop", "[pop]") {
 	stack<int> st;
 	REQUIRE(st.count() == 0);
 
